@@ -37,8 +37,9 @@ This is a RESTful API for managing spy cats, missions, and targets for the **Spy
    cd spy-cat-agency
    
 2. Create a virtual environment:
-  ```python3
-   python -m venv venv
+   
+  ```bash
+   python -m venv venv```
    
 3. Activate the virtual environment:
 
@@ -57,3 +58,7 @@ This is a RESTful API for managing spy cats, missions, and targets for the **Spy
 5. Run the FastAPI server:
   ```bash
   uvicorn main:app --reload
+
+The API should now be running at http://127.0.0.1:8000.
+
+
